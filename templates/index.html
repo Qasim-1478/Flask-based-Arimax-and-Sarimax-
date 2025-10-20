@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Index</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="/ARIMA">Arima</a>
+        <a class="nav-link" href="/SARIMAX">Sarimax</a>
+        <a class="nav-link" href="/ABOUT_ME">About Me</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<p> </p>
+
+<div class="container-fluid">
+
+
+    <div class="row d-flex">
+        <div class="col-lg-6">
+            <div class="card h-100">
+                <img src="static/Arima illustration.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">ARIMA</h5>
+                    <p class="card-text">An ARIMA (Autoregressive Integrated Moving Average) model is a statistical tool used for time series forecasting that predicts future values based on past data. It combines three key components: autoregression (AR), which uses past values to predict the future; integration (I), which uses differencing to make the data stationary; and moving average (MA), which uses past prediction errors.</p>
+                    <a href="/ARIMA" class="btn btn-success">Check it out!</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="card h-100">
+                <img src="static/Sarimax illustration.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">SARIMAX</h5>
+                    <p class="card-text">A SARIMAX model is a statistical time series forecasting model that stands for Seasonal Autoregressive Integrated Moving Average with Exogenous Regressors. It extends the SARIMA model by incorporating external variables, making it a powerful tool for forecasting data that shows seasonality and is influenced by other factors. The model requires specifying parameters for the autoregressive (AR), integrated (I), moving average (MA) components, as well as seasonal and exogenous variables. </p>
+                    <a href="/SARIMAX" class="btn btn-success">Check it out!</a>
+                </div>
+            </div>
+        </div>
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
